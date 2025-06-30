@@ -1,0 +1,76 @@
+Folha: https://fortbroker.com/css/theme.css
+
+Folha: https://fortbroker.com/css/alertas.css
+
+Folha: https://fortbroker.com/css/chat.css?1751242513
+
+Folha: https://fortbroker.com/css/jquery-ui.css
+
+Folha: https://fortbroker.com/css/jquery.modal.min.css
+
+Folha: https://fortbroker.com/css/account.css?1751242513
+
+Inline CSS:
+.bg { background-image: linear-gradient(rgb(0, 0, 128), rgb(3, 1, 18) 30%) !important; }
+:root { --bg: #000000; --color1: #000000; --verde: #008000; --vermelho: #FF0000; --verdeSaldo: #0faf59; --dest: #0faf59; --borda: #475760; --iconColors: #ffffff; }
+body { font-family: "Noto Color Emoji", "Segoe UI Emoji", "Twemoji Mozilla", "EmojiOne Color", sans-serif; }
+
+Inline CSS:
+.logo-animada { margin: 10px; width: 150px; animation: 1s ease-in-out 0s infinite alternate none running pulsar; }
+@keyframes pulsar { 
+  0% { transform: scale(1); }
+  100% { transform: scale(1.2); }
+}
+
+Inline CSS:
+#booster-timer { display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; background: rgb(255, 247, 230); border-left: 3px solid rgb(255, 215, 0); padding: 6px 10px; border-radius: 6px; margin-top: 8px; color: rgb(146, 76, 0); max-width: 7rem; width: 100%; }
+#booster-bar-container { flex: 1 1 0%; height: 6px; background: rgb(255, 224, 163); border-radius: 4px; overflow: hidden; position: relative; }
+#booster-bar { height: 100%; background: rgb(255, 215, 0); width: 100%; transition: width 1s linear; }
+
+Inline CSS:
+@keyframes pulseBoost { 
+  0% { text-shadow: rgba(255, 168, 0, 0.7) 0px 0px 5px; }
+  50% { text-shadow: rgb(255, 168, 0) 0px 0px 15px; }
+  100% { text-shadow: rgba(255, 168, 0, 0.7) 0px 0px 5px; }
+}
+
+Inline CSS:
+@keyframes pulse2 { 
+  0% { transform: scale(1); }
+  70% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.pulse2 { animation: 2s ease 0s infinite normal none running pulse2; }
+
+Inline CSS:
+#top-users-slide { overflow: hidden; background-color: var(--bg); border-top: 1px solid rgb(255, 215, 0); padding: 10px 0px; }
+.slider-track { display: flex; animation: 200s linear 0s infinite normal none running scroll; gap: 2rem; align-items: center; white-space: nowrap; width: max-content; }
+.slide-item { display: flex; align-items: center; gap: 0.5rem; color: rgb(255, 255, 255); font-size: 0.875rem; background: rgb(34, 34, 34); padding: 5px 10px; border-radius: 20px; border: 1px solid rgb(255, 215, 0); }
+.slide-item img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; border: 1px solid rgb(255, 215, 0); }
+.slide-item .name { font-weight: bold; }
+.slide-item .profit { color: rgb(255, 215, 0); margin-left: 5px; }
+@keyframes scroll { 
+  0% { transform: translateX(0px); }
+  100% { transform: translateX(-50%); }
+}
+
+Inline CSS:
+#currencyList .item { display: flex; align-items: center; justify-content: space-between; }
+#currencyList .item > span { display: flex; align-items: center; width: 30%; }
+
+Inline CSS:
+#currencyList .item { display: flex; align-items: center; justify-content: space-between; }
+#currencyList .item > span { display: flex; align-items: center; width: 30%; }
+
+Inline CSS:
+.clock-time::before { content: attr(clock); }
+.clock_container { display: flex; flex-flow: column wrap; width: 40px; height: 40px; aspect-ratio: 1 / 1.2; justify-content: flex-start; }
+.timer { width: 100%; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; }
+.donat { aspect-ratio: 1 / 1; border-radius: 50%; border: 3px solid transparent; }
+.outer-circle { position: relative; width: 100%; z-index: 0; display: flex; justify-content: center; align-items: center; }
+.clock-timer { font-size: 10px; }
+
+Inline CSS:
+.social-icons { z-index: 10; }
+.social-icon { cursor: pointer; transition: transform 0.3s; background-color: var(--bg); border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--iconColors); }
+.social-icon:hover { transform: scale(1.2); }
